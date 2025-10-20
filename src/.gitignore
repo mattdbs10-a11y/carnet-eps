@@ -1,0 +1,38 @@
+node_modules/
+.env
+.env.local
+build/
+dist/
+```
+
+### **Étape 4 : Créer un compte Vercel (2 min)**
+1. Allez sur [vercel.com](https://vercel.com)
+2. Cliquez sur **"Sign up"**
+3. Cliquez sur **"Continue with GitHub"**
+4. Autorisez Vercel à accéder à GitHub
+
+### **Étape 5 : Déployer le projet (3 min)**
+1. Une fois sur Vercel, cliquez sur **"New Project"**
+2. Sélectionnez le repository **`carnet-eps`**
+3. Les paramètres devraient se remplir automatiquement :
+   - **Framework** : React
+   - **Root Directory** : ./
+   - **Build Command** : `npm run build`
+   - **Output Directory** : `build`
+4. Cliquez sur **"Deploy"** 🚀
+
+Vercel va compiler et déployer automatiquement. **Attendez 2-3 minutes...**
+
+### **Étape 6 : Récupérer l'URL publique**
+1. Une fois le déploiement terminé, vous verrez un message **"Congratulations"**
+2. Copiez l'URL (ressemble à : `https://carnet-eps-abc123.vercel.app`)
+3. **Testez** en ouvrant cette URL dans votre navigateur
+
+---
+
+## 🎓 **PARTAGER AVEC VOS ÉLÈVES**
+
+### **Option 1 : Lien direct**
+Envoyez simplement l'URL à vos élèves :
+```
+https://carnet-eps-[votrenummer].vercel.app
